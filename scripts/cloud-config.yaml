@@ -6,4 +6,8 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - <public-key>
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINe2e31ByXOM0rac/OfKLcCi0mP4VACfGBPr6J/xOsUO ACIT4640
+
+packages:
+  - nginx
+  - nmap  
