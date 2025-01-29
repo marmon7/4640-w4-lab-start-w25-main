@@ -106,7 +106,7 @@ resource "aws_security_group" "web" {
 resource "aws_vpc_security_group_ingress_rule" "web-ssh" {
   security_group_id = aws_security_group.web.id
 
-  cidr_ipv4   = "10.0.0.0/8"
+  cidr_ipv4   = "0.0.0.0/0"
   from_port   = 22
   ip_protocol = "tcp"
   to_port     = 22
@@ -118,7 +118,7 @@ resource "aws_vpc_security_group_ingress_rule" "web-ssh" {
 resource "aws_vpc_security_group_ingress_rule" "web-http" {
   security_group_id = aws_security_group.web.id
 
-  cidr_ipv4   = "10.0.0.0/8"
+  cidr_ipv4   = "0.0.0.0/0"
   from_port   = 80
   ip_protocol = "tcp"
   to_port     = 80
