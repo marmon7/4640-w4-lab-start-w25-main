@@ -6,7 +6,7 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINe2e31ByXOM0rac/OfKLcCi0mP4VACfGBPr6J/xOsUO ACIT4640
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMviG3oSU/kMfRb0HwJ2dhqU1OC3250ZTD7rPzxYumQb acit4640week3labkey
 
 packages:
   - nginx
