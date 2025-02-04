@@ -11,4 +11,5 @@
 - install Terraform: https://developer.hashicorp.com/terraform/install
 - run terraform init on root of the repo
 - run terraform apply to create the ec2 instance with approriate infastructure.
-- SSH into ec2 instance using the dns address or public ip of the generated ec2 instance with the private key: ssh -i ~/.ssh/<private-key> <user>@<host>
+- SSH into ec2 instance using the dns address or public ip of the generated ec2 instance with the private key to web user: 
+- ssh -i ~/.ssh/<private-key> web@<host>
